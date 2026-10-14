@@ -1,0 +1,42 @@
+{
+ "hold": 360,
+ "aborted": "stopped by signal",
+ "burn_tail": [
+  "32.4%  proc'd: 16200 (11719 Gflop/s)   errors: 0   temps: 42 C ",
+  "32.4%  proc'd: 16200 (11719 Gflop/s)   errors: 0   temps: 42 C "
+ ],
+ "results": [
+  {
+   "label": "A: pump 55% rad 100%",
+   "pump_set": 55,
+   "rad_set": 100,
+   "core": 40.0,
+   "hbm": 52.0,
+   "power": 156.2,
+   "sm": 1350.0,
+   "rad_rpm": 2904.0,
+   "rad_min": 2827.0,
+   "pump_rpm": 3479.0,
+   "slope_core": -0.74,
+   "limit": null,
+   "seconds": 360,
+   "sweep": "A"
+  },
+  {
+   "label": "A: pump 55% rad 70%",
+   "pump_set": 55,
+   "rad_set": 70,
+   "core": 41.0,
+   "hbm": 51.0,
+   "power": 156.9,
+   "sm": 1350.0,
+   "rad_rpm": 2190.5,
+   "rad_min": 2158.0,
+   "pump_rpm": 3479.0,
+   "slope_core": 0.0,
+   "limit": null,
+   "seconds": 360,
+   "sweep": "A"
+  }
+ ]
+}

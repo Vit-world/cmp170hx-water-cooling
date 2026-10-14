@@ -1,0 +1,34 @@
+{
+ "kind": "burn",
+ "gpu_name": "NVIDIA Graphics Device",
+ "params": {
+  "minutes": 10,
+  "tensor": false
+ },
+ "verdict": "ok",
+ "dur_s": 605.1,
+ "cond": {
+  "pl": 250.0,
+  "profile": "cold"
+ },
+ "metrics": {
+  "gflops": 12651,
+  "errors": 0,
+  "plateau_core": 55.0,
+  "plateau_hbm": 60.0,
+  "power_avg": 245.6,
+  "sm_mhz": 1455.0,
+  "rad_rpm": 1663.0,
+  "pump_rpm": 3400.0
+ },
+ "stats": {
+  "core_max": 57,
+  "hbm_max": 62,
+  "power_max": 259.2,
+  "power_avg": 245.6,
+  "core_end": 55.0,
+  "hbm_end": 60.0
+ },
+ "profile": "cold",
+ "notes": "10-minute gpu_burn FP32 at the 250 W power limit with the 'cold' curve of cmp_cooling_daemon.py"
+}

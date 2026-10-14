@@ -1,0 +1,90 @@
+{
+ "hold": 360,
+ "aborted": null,
+ "burn_tail": [
+  "93.9%  proc'd: 25875 (12522 Gflop/s)   errors: 0   temps: 64 C ",
+  "93.9%  proc'd: 25875 (12522 Gflop/s)   errors: 0   temps: 64 C "
+ ],
+ "results": [
+  {
+   "label": "C: pump 55% rad 100%",
+   "pump_set": 55,
+   "rad_set": 100,
+   "core": 53.0,
+   "hbm": 58.0,
+   "power": 249.4,
+   "sm": 1470.0,
+   "rad_rpm": 2897.0,
+   "rad_min": 2815.0,
+   "pump_rpm": 3479.0,
+   "slope_core": 0.0,
+   "limit": null,
+   "seconds": 300,
+   "sweep": "C"
+  },
+  {
+   "label": "C: pump 55% rad 70%",
+   "pump_set": 55,
+   "rad_set": 70,
+   "core": 54.0,
+   "hbm": 59.0,
+   "power": 245.7,
+   "sm": 1455.0,
+   "rad_rpm": 2197.5,
+   "rad_min": 2160.0,
+   "pump_rpm": 3479.0,
+   "slope_core": 0.0,
+   "limit": null,
+   "seconds": 300,
+   "sweep": "C"
+  },
+  {
+   "label": "C: pump 55% rad 50%",
+   "pump_set": 55,
+   "rad_set": 50,
+   "core": 55.0,
+   "hbm": 59.5,
+   "power": 245.6,
+   "sm": 1455.0,
+   "rad_rpm": 1661.0,
+   "rad_min": 1640.0,
+   "pump_rpm": 3479.0,
+   "slope_core": 0.0,
+   "limit": null,
+   "seconds": 300,
+   "sweep": "C"
+  },
+  {
+   "label": "C: pump 20% rad 50%",
+   "pump_set": 20,
+   "rad_set": 50,
+   "core": 56.0,
+   "hbm": 61.0,
+   "power": 245.5,
+   "sm": 1455.0,
+   "rad_rpm": 1667.0,
+   "rad_min": 1643.0,
+   "pump_rpm": 2481.0,
+   "slope_core": 0.07,
+   "limit": null,
+   "seconds": 360,
+   "sweep": "C"
+  },
+  {
+   "label": "C: pump 55% rad 15%",
+   "pump_set": 55,
+   "rad_set": 15,
+   "core": 64.0,
+   "hbm": 66.0,
+   "power": 243.0,
+   "sm": 1440.0,
+   "rad_rpm": 742.5,
+   "rad_min": 730.0,
+   "pump_rpm": 3515.0,
+   "slope_core": 0.7,
+   "limit": null,
+   "seconds": 480,
+   "sweep": "C"
+  }
+ ]
+}
