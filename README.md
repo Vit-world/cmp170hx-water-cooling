@@ -4,10 +4,14 @@
 
 A working water-cooling build for the **CMP 170HX** (GA100) using a **Bykski N-TESLA-A100-40G-SR** block: what fits, the spots where the block needs help, how the fans and pump are controlled, and the temperatures and noise you get. One build, one tester, documented with photos and raw data.
 
-| | |
-|---|---|
-| ![Block test fit](images/03-block-test-fit-overview.jpg) | ![Pocket close-up](images/04-block-pocket-closeup.jpg) |
-| Test fit of the block on the card | A pocket in the block where one component is not reached |
+## Photos
+
+Click a photo to jump to its explanation.
+
+<table>
+<tr><td align="center" valign="top"><a href="docs/fitment.md#background-the-air-cooled-phase"><img src="images/01-air-cooling-intake-shroud.jpg" width="230" alt="Air-cooled phase: intake fan with a 3D-printed adapter"></a><br><sub>1. Air-cooled phase: intake fan with a 3D-printed adapter</sub></td><td align="center" valign="top"><a href="docs/fitment.md#background-the-air-cooled-phase"><img src="images/02-air-cooling-rear-exhaust.jpg" width="230" alt="Air-cooled phase: rear exhaust fan on the case"></a><br><sub>2. Air-cooled phase: rear exhaust fan on the case</sub></td><td align="center" valign="top"><a href="docs/fitment.md#test-fit-where-the-block-does-not-touch"><img src="images/03-block-test-fit-overview.jpg" width="230" alt="Test fit: block and card side by side"></a><br><sub>3. Test fit: block and card side by side</sub></td><td align="center" valign="top"><a href="docs/fitment.md#spot-1-red-a-pocket-in-the-block-above-a-component"><img src="images/04-block-pocket-closeup.jpg" width="230" alt="A pocket in the block above a component"></a><br><sub>4. A pocket in the block above a component</sub></td></tr>
+<tr><td align="center" valign="top"><a href="docs/fitment.md#spot-1-red-a-pocket-in-the-block-above-a-component"><img src="images/06-aluminium-spacer-in-pocket.jpg" width="230" alt="The aluminium spacer in the pocket"></a><br><sub>5. The aluminium spacer in the pocket</sub></td><td align="center" valign="top"><a href="docs/fitment.md#map-which-pad-on-the-card-meets-which-boss-on-the-block"><img src="images/05-pad-to-boss-map.jpg" width="230" alt="Map: which pad meets which boss"></a><br><sub>6. Map: which pad meets which boss</sub></td><td align="center" valign="top"><a href="docs/fitment.md#insulating-the-capacitors-with-kapton-tape"><img src="images/07-kapton-insulation-areas.jpg" width="230" alt="Kapton insulation on the block"></a><br><sub>7. Kapton insulation on the block</sub></td><td></td></tr>
+</table>
 
 ## What is here
 

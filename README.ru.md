@@ -4,10 +4,14 @@
 
 Рабочая сборка водяного охлаждения для **CMP 170HX** (GA100) на водоблоке **Bykski N-TESLA-A100-40G-SR**: что подходит, где блоку нужна помощь, как управлять вентиляторами и помпой и какие температуры и шум получаются. Одна сборка, один испытатель, всё с фото и сырыми данными.
 
-| | |
-|---|---|
-| ![Примерка блока](images/03-block-test-fit-overview.jpg) | ![Крупный план выемки](images/04-block-pocket-closeup.jpg) |
-| Примерка блока на карте | Выемка в блоке, где один компонент не достаётся до блока |
+## Фото
+
+Нажмите на фото, чтобы перейти к его описанию.
+
+<table>
+<tr><td align="center" valign="top"><a href="docs/fitment.ru.md#предыстория-воздушное-охлаждение"><img src="images/01-air-cooling-intake-shroud.jpg" width="230" alt="Воздушный период: вентилятор с переходником на 3D-принтере"></a><br><sub>1. Воздушный период: вентилятор с переходником на 3D-принтере</sub></td><td align="center" valign="top"><a href="docs/fitment.ru.md#предыстория-воздушное-охлаждение"><img src="images/02-air-cooling-rear-exhaust.jpg" width="230" alt="Воздушный период: задний вентилятор на выдув"></a><br><sub>2. Воздушный период: задний вентилятор на выдув</sub></td><td align="center" valign="top"><a href="docs/fitment.ru.md#примерка-где-блок-не-касается"><img src="images/03-block-test-fit-overview.jpg" width="230" alt="Примерка: блок и карта рядом"></a><br><sub>3. Примерка: блок и карта рядом</sub></td><td align="center" valign="top"><a href="docs/fitment.ru.md#место-1-красное-выемка-в-блоке-над-компонентом"><img src="images/04-block-pocket-closeup.jpg" width="230" alt="Выемка в блоке над компонентом"></a><br><sub>4. Выемка в блоке над компонентом</sub></td></tr>
+<tr><td align="center" valign="top"><a href="docs/fitment.ru.md#место-1-красное-выемка-в-блоке-над-компонентом"><img src="images/06-aluminium-spacer-in-pocket.jpg" width="230" alt="Алюминиевая проставка в выемке"></a><br><sub>5. Алюминиевая проставка в выемке</sub></td><td align="center" valign="top"><a href="docs/fitment.ru.md#карта-какая-прокладка-на-карте-встречает-какой-выступ-на-блоке"><img src="images/05-pad-to-boss-map.jpg" width="230" alt="Карта: какая прокладка встречает какой выступ"></a><br><sub>6. Карта: какая прокладка встречает какой выступ</sub></td><td align="center" valign="top"><a href="docs/fitment.ru.md#изоляция-конденсаторов-каптоновым-скотчем"><img src="images/07-kapton-insulation-areas.jpg" width="230" alt="Каптоновая изоляция на блоке"></a><br><sub>7. Каптоновая изоляция на блоке</sub></td><td></td></tr>
+</table>
 
 ## Что здесь есть
 
