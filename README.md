@@ -20,6 +20,7 @@ Click a photo to jump to its explanation.
 | [Fitting the block: two spots it does not reach, a map of every pad, plus extra bosses](docs/fitment.md) | written, more photos to come |
 | Step-by-step install (disassembly, paste, screw order, loop, leak test) | in progress |
 | [Calibration: pump and radiator-fan duty vs temperature, HBM floor, noise](docs/calibration.md) | written |
+| [3D-printable spacer blanks: 15 x 7 mm, 3.0 to 6.5 mm in 0.5 mm steps](stl/) | written |
 | [Scripts: cooling daemon and calibration runner](scripts/) | written |
 | [Raw measurement data](data/) | written |
 

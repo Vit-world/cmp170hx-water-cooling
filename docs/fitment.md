@@ -50,7 +50,7 @@ The component sits between two inductors on the PCIe-connector side of the GPU. 
 ![Aluminium spacer in the block's pocket](../images/06-aluminium-spacer-in-pocket.jpg)
 *The aluminium spacer (red ellipse) sitting in the pocket of the block, with pad material around it.*
 
-**How the thickness was found:** it depends on the pads you have, so measure it on the spot. I 3D-printed blanks of the same size in thicknesses stepping by 0.5 mm, put each one between pads, fitted the block to the card, and kept the thickness that sat best. Then I cut an identical piece from aluminium.
+**How the thickness was found:** it depends on the pads you have, so measure it on the spot. I 3D-printed blanks of the same size in thicknesses stepping by 0.5 mm, put each one between pads, fitted the block to the card, and kept the thickness that sat best. Then I cut an identical piece from aluminium. The footprint in this build is 15 x 7 mm. **The blanks are ready to print: [stl/](../stl/).**
 
 ### Spot 2 (green): a small IC near the power-connector end of the board
 
@@ -91,4 +91,4 @@ While reading about other builds the author came across the warning that some co
 
 ## Still to be written
 
-The final dimensions of the spacer, and the full step-by-step install (disassembly, paste, screw order, loop layout, leak test).
+The final height of the spacer (the footprint is 15 x 7 mm), and the full step-by-step install (disassembly, paste, screw order, loop layout, leak test).
