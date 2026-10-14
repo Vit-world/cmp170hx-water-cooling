@@ -2,7 +2,7 @@
 
 **English** · [Русский](README.ru.md) · [← back](../README.md)
 
-Eight plain blocks, **15 x 7 mm**, heights **3.0 to 6.5 mm in 0.5 mm steps**. Print them all at once on any 3D printer and use them to find how thick the aluminium spacer for [Spot 1](../docs/fitment.md#spot-1-red-a-pocket-in-the-block-above-a-component) must be with **your** thermal pads.
+Eight plain blocks, **15 x 7 mm**, heights **3.0 to 6.5 mm in 0.5 mm steps**. Print them all at once on any 3D printer and use them to find how thick the aluminium spacer for [Spot 1](../docs/fitment.md#spot-1-a-pocket-in-the-block-above-a-component) must be with **your** thermal pads.
 
 | Height | File |
 |---|---|
@@ -20,12 +20,12 @@ Eight plain blocks, **15 x 7 mm**, heights **3.0 to 6.5 mm in 0.5 mm steps**. Pr
 
 1. Print the plate (or single blanks). Any FDM printer and any filament will do: the blanks are only trial pieces, used with the card powered off.
 2. **Measure each printed blank with calipers** and go by the measured height: a printed part can differ from the model by a few tenths of a millimetre.
-3. At the pocket, stack pad, blank, pad on the component, lower the block as in the [test fit](../docs/fitment.md#test-fit-where-the-block-does-not-touch), take it off and look at the imprints. Repeat with other blanks and keep the thickness that makes even contact without straining the card.
+3. At the pocket, stack pad, blank, pad on the component, lower the block as in the [test fit](../docs/fitment.md#test-fit-where-the-water-block-does-not-touch-the-cards-chips), take it off and look at the imprints. Repeat with other blanks and keep the thickness that makes even contact without straining the card.
 4. Make the real spacer from aluminium with the same footprint and the chosen height, and insulate it completely with pads (see the [warnings](../docs/fitment.md#warnings)).
 
 ## Notes
 
 - The 15 x 7 mm footprint is what fitted the pocket in the author's build. Check it against your own block before cutting anything.
-- The right height depends on your pads. The pads supplied with the block in this build were 1.7 mm thick and very soft.
+- The right height depends on your pads. The pads supplied with the block in this build were 1.7 mm thick and very soft. **In the author's build the bar is 5.5 mm, with a 1.7 mm pad above and another below it.**
 - The author's original set had 3.0 to 5.5 mm and 6.5 mm; the 6.0 mm blank is added here so that the steps are even.
 - Regenerate or make other sizes with `python3 make_spacer_blanks.py --plate` (standard library only; see `--help` for `--length`, `--width`, `--heights`).

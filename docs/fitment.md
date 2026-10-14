@@ -31,14 +31,14 @@ The pads supplied with the block were 1.7 mm thick and very soft. They closely r
 
 The author also had a set of pads bought separately (brand not recalled), and those turned out to be noticeably stiffer. The soft ones were chosen on purpose: if a gap is wrong by a fraction of a millimetre, a soft pad can be pressed down with light force, which lets every chip make contact without bending the card or straining the PCB. Stiffer pads would need a much more exact thickness.
 
-## Test fit: where the block does not touch
+## Test fit: where the water block does not touch the card's chips
 
 I put old thermal pads on the chips, lowered the block, and took it off again. Pads that came off the chips and stuck to the block show where contact is made; a pad that stayed on its chip and left no mark on the block shows a gap.
 
+### Spot 1: a pocket in the block above a component
+
 ![Block and card side by side after a test fit](../images/03-block-test-fit-overview.jpg)
 *Block (top) and card (bottom) after a test fit. Red: the component whose pad did not reach the block. Green: a small IC where the block has a flat spot and the gap had to be closed with thicker padding.*
-
-### Spot 1 (red): a pocket in the block above a component
 
 The component sits between two inductors on the PCIe-connector side of the GPU. In the block there is a large recess exactly above it, so the pad stayed on the chip and never touched the block.
 
@@ -52,7 +52,11 @@ The component sits between two inductors on the PCIe-connector side of the GPU. 
 
 **How the thickness was found:** it depends on the pads you have, so measure it on the spot. I 3D-printed blanks of the same size in thicknesses stepping by 0.5 mm, put each one between pads, fitted the block to the card, and kept the thickness that sat best. Then I cut an identical piece from aluminium. The footprint in this build is 15 x 7 mm. **The blanks are ready to print: [stl/](../stl/).**
 
-### Spot 2 (green): a small IC near the power-connector end of the board
+In my case the bar came out 5.5 mm thick, with a 1.7 mm thermal pad above and another below it. But measure for your own build, because a lot depends on it: if the stack is too thin, the chip will not be cooled properly; if it is too thick, the PCB can crack when it heats up, or its inner layers can be damaged. Either way, take the time to print bars of different heights and do the test fit. The bar would be better made of copper, but I only had aluminium :)
+
+When choosing the thickness, remember that there will be thermal paste on the GPU die, which adds a little thickness too. For the test fit I stuck on several strips of masking tape.
+
+### Spot 2: a small IC near the power-connector end of the board
 
 Here the block has no boss at all, just a flat surface, so the gap is simply the missing height.
 
@@ -91,4 +95,6 @@ While reading about other builds the author came across the warning that some co
 
 ## Still to be written
 
-The final height of the spacer (the footprint is 15 x 7 mm), and the full step-by-step install (disassembly, paste, screw order, loop layout, leak test).
+The full step-by-step install (disassembly, paste, screw order, loop layout, leak test).
+
+**At the time of writing: room temperature 23 °C, card idle, GPU core 27 °C, memory 45 °C, card power draw 33 W. Fans at 15 % (750 rpm), pump at 30 % (2842 rpm).**
